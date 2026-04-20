@@ -1,0 +1,25 @@
+/*& Make font size larger, which scales everything else due to being base off of rem */
+:root {
+    font-size: 20px;
+}
+
+/*& if the device is in portrait mode */
+@media screen and (orientation: portrait) {
+
+    /*~ make the font size even larger */
+    /*~ (mobile browsers are weird and font size aprently isn't equal in landscape/portrait) */
+    :root {
+        font-size: 40px;
+    }
+
+    /*~ remove images and maximize width of maindiv */
+    .image {
+        display: none;
+    }
+    
+    #main {
+        max-width: 100%;
+    }
+
+
+}

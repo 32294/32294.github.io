@@ -1,0 +1,97 @@
+html, body {
+    margin: 0 auto;
+    background-color: #101010;
+    height: 100svh;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    overflow: hidden;
+}
+
+#hideimage {
+    width: 50svw;
+    height: 100svh;
+    background-color: black;
+    margin-left: 50svw;
+    position: absolute;
+    z-index: 10;
+}
+
+
+.grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100%;
+    width: fit-content
+}
+
+
+
+.image {
+    height: 100svh;
+    float: right;
+    justify-self: end;
+}
+
+.image-right {
+    float:left !important;
+    top: 0; 
+    position: absolute;
+}
+
+#main {
+    max-width: 31rem;
+    min-width: 21.75rem;
+    height: 100svh;
+    background-color: #202020;
+    color: white;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#main::-webkit-scrollbar {
+  display: none;
+}
+
+#main-inside {
+    padding: 0 4rem 0 3.75rem;
+}
+
+.link-div {
+    width: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #333333;
+    margin-top: 1.5rem;
+}
+
+.link-div:hover {
+    background-color: #464646;
+}
+
+.link-image {
+    padding: 0.25rem; 
+    margin-bottom: 0; 
+    height: 2rem; 
+    border-radius: 0.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+ 
+a, a:visited, a:hover {
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+}
